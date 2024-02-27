@@ -1,10 +1,4 @@
-/*
-|--------------------------------------------------------------------------
-| Package entrypoint
-|--------------------------------------------------------------------------
-|
-| Export values from the package entrypoint as you see fit.
-|
-*/
+import Json from './src/json.js'
+import json from './src/decorator.js'
 
-export { configure } from './configure.js'
+export { Json, json }
